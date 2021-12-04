@@ -20,6 +20,49 @@ h1{
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-croup a + a {
+    margin-left: 15px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 19px 23px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+}
+
+.btn-primary:hover{
+    color: #1085e4;
+    background-color: #fff;
+}
+
+.btn-secondary{
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 19px 28px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+
+.btn-secondary:hover{
+     color: #fff;
+    background-color: #1085e4;
 }
 
 .btn-free{
@@ -27,7 +70,9 @@ h1{
     font-weight: 400;
     background-color: #1085e4;
     text-decoration: none;
+    padding: 20px 39px;
 }
+
 
 .grid h2{
     font-size: 40px;
@@ -75,9 +120,10 @@ h1{
     color: #b1c3ee;
 }
 
-.page-subscribe button{
+.btn-subscribe {
     font-size: 14px;
     font-weight: 400;
+    padding: 14px 34px;
     color: #fff;
     background-color: #1085e4
 }
@@ -156,6 +202,7 @@ h1{
 .but-control{
     font-size: 12px;
     font-weight: 700;
+    padding: 19px 47px;
     color: #fff;
     background-color: #1085e4;
     text-decoration: none;
@@ -164,12 +211,117 @@ h1{
 .page-screen h2{
     font-size: 50px;
     font-weight: 600;
-    color: #192b59;
+    color: #1085e4;
+    list-style-type: 
 }
 
 .page-screen h2 span{
     font-size: 18px;
     font-weight: 800;
-    color: #1085e4;
+    color: #fff;
     display: block;
+}
+
+.page-clients h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #1085e4;
+}
+
+.page-clients h2 span{
+    color: #85c8ff;
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+}
+
+.name{
+    color: #000958;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.position {
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.page-plan h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+.page-plan span{
+    color: #85c8ff;
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+}
+
+.box-price-item h3{
+    color: #000;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.box-price-item p{
+    color: #1085e4;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-item{
+    color: #8085b1;
+    background: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 18px 66px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.team h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #1085e4;
+}
+
+.team h2 span{
+    color: #85c8ff;
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+}
+
+.team h3 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.team h3 span{
+    color: #85c8ff;
+    font-size: 26px;
+    font-weight: 800;
+    display: block;
+}
+
+.page-form h2 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sbtn{
+    padding: 19px 47px;
+}
+
+.footer a{
+    color: #1085e4;
+    text-decoration: none;
 }
